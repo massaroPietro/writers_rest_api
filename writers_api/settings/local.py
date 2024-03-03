@@ -5,4 +5,4 @@ SECRET_KEY = env("DJANGO_SECRET_KEY", default="dNC6kbpS_ac9uRhVLHvjrc6NO9OqClF9C
 
 DEBUG = True
 
-ALLOWED_HOSTS = ["http://localhost:8080"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
